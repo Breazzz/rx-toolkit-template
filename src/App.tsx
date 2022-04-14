@@ -1,11 +1,11 @@
 import "./styles.css";
-import {useAppSelector, useAppDispatch} from './store/hooks/redux'
-import {userSlice} from './store/reducers/UserSlice'
+import { useAppSelector, useAppDispatch } from "./store/hooks/redux";
+import { userSlice } from "./store/reducers/UserSlice";
 
 export default function App() {
-  const {count} = useAppSelector(state => state.userReducer)
-  const {increment, decrement} = userSlice.actions
-  const dispatch = useAppDispatch()
+  const { count } = useAppSelector((state) => state.userReducer);
+  const { increment, decrement } = userSlice.actions;
+  const dispatch = useAppDispatch();
 
   return (
     <div className="App">
