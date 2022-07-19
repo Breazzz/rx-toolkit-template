@@ -1,1 +1,1 @@
-# rx-toolkit-template
+# rx-toolkit-template typescript
